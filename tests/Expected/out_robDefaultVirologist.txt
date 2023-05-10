@@ -1,0 +1,28 @@
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist accepted
+Virologist accepted
+Virologist cannot be robbed
+Cannot rob virologist
+
+Virologist(v1):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Default@49c2faae
+
+Virologist(v2):
+	field: null
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Default@20ad9418

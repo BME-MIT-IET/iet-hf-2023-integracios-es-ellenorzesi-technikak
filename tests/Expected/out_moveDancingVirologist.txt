@@ -1,0 +1,46 @@
+Field constructed
+FreeField constructed
+Field constructed
+FreeField constructed
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Neighbour Field added
+Neighbour Field added
+Neighbour Field added
+Neighbour Field added
+Virologist accepted
+State constructed
+Dancing constructed
+Random neighbour: 0
+Virologist accepted
+Virologist moved randomly because of dancing
+Virologist removed
+
+FreeField(f1):
+	virologists:
+	neighbours:
+		f2
+		f3
+
+FreeField(f2):
+	virologists:
+		v
+	neighbours:
+		f1
+
+FreeField(f3):
+	virologists:
+	neighbours:
+		f1
+
+Virologist(v):
+	field: f2
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Dancing@20ad9418
+		Default@31cefde0

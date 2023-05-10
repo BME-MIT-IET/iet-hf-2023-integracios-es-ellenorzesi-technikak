@@ -1,0 +1,27 @@
+Field constructed
+Shelter constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist accepted
+Collectible constructed
+Gear constructed
+Glove constructed
+Gear added to inventory
+Item removed
+Glove collected
+
+Shelter(s):
+	virologists:
+		v
+	neighbours:
+	gears:
+
+Virologist(v):
+	field: s
+	maxMaterial: 3
+	gears:
+		Glove@5010be6
+	codes:
+	states:
+		Default@685f4c2e

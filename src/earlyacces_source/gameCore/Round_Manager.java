@@ -210,7 +210,7 @@ public class Round_Manager implements Serializable {
 		al[20].addAll(Arrays.asList(16, 19, 21, 36, 37, 38));
 		al[21].addAll(Arrays.asList(14, 15, 16, 20, 22, 23, 36));
 		al[22].addAll(Arrays.asList(14, 21, 23, 35, 36));
-		al[23].addAll(Arrays.asList(14, 22, 24, 35));
+		al[23].addAll(Arrays.asList(14, 22, 24, 35, 34));
 		al[24].addAll(Arrays.asList(13, 14, 23, 25, 33, 34));
 		al[25].addAll(Arrays.asList(13, 12, 24, 26, 33));
 		al[26].addAll(Arrays.asList(11, 25, 27, 32, 33));

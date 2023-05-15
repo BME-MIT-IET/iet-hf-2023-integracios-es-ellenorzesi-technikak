@@ -1,0 +1,7 @@
+create storage s
+create virologist v
+set virologist v field s
+set field s virologist v
+virologist v collect
+print field s
+print virologist v

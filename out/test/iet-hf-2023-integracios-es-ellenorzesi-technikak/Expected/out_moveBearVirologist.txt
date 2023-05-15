@@ -1,0 +1,37 @@
+Field constructed
+FreeField constructed
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Neighbour Field added
+Neighbour Field added
+Virologist accepted
+State constructed
+Bear state
+Random neighbour: 0
+Virologist accepted
+Virologist moved randomly because of bear
+Virologist removed
+
+FreeField(f1):
+	virologists:
+	neighbours:
+		f2
+
+FreeField(f2):
+	virologists:
+		v
+	neighbours:
+		f1
+
+
+Virologist(v):
+	field: f2
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Bear@5d099f62
+		Default@37f8bb67

@@ -1,0 +1,11 @@
+create freefield f1	
+create freefield f2
+create virologist v
+set field f1 field f2
+set field f2 field f1
+set virologist v field f1
+set field f1 virologist v
+virologist v move f2
+print field f1
+print field f2
+print virologist v

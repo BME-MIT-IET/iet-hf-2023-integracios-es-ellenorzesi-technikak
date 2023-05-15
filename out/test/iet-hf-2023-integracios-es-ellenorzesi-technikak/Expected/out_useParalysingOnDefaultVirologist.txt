@@ -1,0 +1,61 @@
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist accepted
+Virologist accepted
+Collectible constructed
+Code constructed
+Paralysing constructed
+Field constructed
+Laboratory constructed
+Code learnt
+State constructed
+Dancing constructed
+Collectible constructed
+Material constructed
+Field constructed
+Storage constructed
+Collectible constructed
+Material constructed
+Collectible constructed
+Material constructed
+Stored materials size: 2
+Material added to inventory, available space (2)
+Collectible constructed
+Code constructed
+Paralysing constructed
+Use code
+Stored materials by the virologist (before): 1
+Remove collectible
+Material preparing for removal
+Collectible constructed
+Material constructed
+Material removed from inventory, available space (3)
+Stored materials by the virologist (after): 0
+Paralysing setState
+State constructed
+Paralysed constructed
+
+Virologist(v1):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+		Paralysing@27fa135a
+	states:
+		Dancing@46f7f36a
+		Default@421faab1
+
+Virologist(v2):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Paralysed@2b71fc7e
+		Default@5ce65a89

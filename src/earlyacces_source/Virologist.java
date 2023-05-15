@@ -304,4 +304,7 @@ public class  Virologist implements Serializable {
 	public LinkedList<State> getStates() {
 		return states;
 	}
+
+    public void Print() {
+    }
 }

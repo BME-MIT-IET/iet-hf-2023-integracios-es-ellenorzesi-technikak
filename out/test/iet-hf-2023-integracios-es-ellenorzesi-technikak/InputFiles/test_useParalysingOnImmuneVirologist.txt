@@ -1,0 +1,13 @@
+create freefield f
+create virologist v1
+create virologist v2
+set virologist v1 field f
+set virologist v2 field f
+set field f virologist v1
+set field f virologist v2
+add virologist v2 immune
+add virologist v1 paralysing
+add virologist material
+virologist v1 paralysing v2
+print virologist v1
+print virologist v2

@@ -94,4 +94,7 @@ public abstract class Field implements Serializable {
 	public List<Virologist> getVirologists() {
 		return virologists;
 	}
+
+    public void Print() {
+    }
 }

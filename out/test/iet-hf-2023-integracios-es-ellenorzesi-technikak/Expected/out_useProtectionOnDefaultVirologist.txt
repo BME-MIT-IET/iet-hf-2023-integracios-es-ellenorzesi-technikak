@@ -1,0 +1,71 @@
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist accepted
+Virologist accepted
+Collectible constructed
+Code constructed
+Protection constructed
+Field constructed
+Laboratory constructed
+Code learnt
+Collectible constructed
+Code constructed
+BearVirus constructed
+Field constructed
+Laboratory constructed
+Code learnt
+Collectible constructed
+Code constructed
+Chorea constructed
+Field constructed
+Laboratory constructed
+Code learnt
+Collectible constructed
+Material constructed
+Field constructed
+Storage constructed
+Collectible constructed
+Material constructed
+Stored materials size: 1
+Material added to inventory, available space (2)
+Collectible constructed
+Code constructed
+Protection constructed
+Use code
+Stored materials by the virologist (before): 1
+Remove collectible
+Material preparing for removal
+Collectible constructed
+Material constructed
+Material removed from inventory, available space (3)
+Stored materials by the virologist (after): 0
+Immune setState
+State constructed
+Immune constructed
+immune>default
+
+Virologist(v1):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+		Protection@1ed6993a
+		BearVirus@7e32c033
+		Chorea@7ab2bfe1
+	states:
+		Default@497470ed
+
+Virologist(v2):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Immune@63c12fb0
+		Default@b1a58a3

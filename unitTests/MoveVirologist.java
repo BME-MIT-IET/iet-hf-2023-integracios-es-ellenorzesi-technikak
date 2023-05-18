@@ -4,9 +4,7 @@ import earlyacces_source.field.FreeField;
 import earlyacces_source.gameCore.Round_Manager;
 import earlyacces_source.state.Dancing;
 import earlyacces_source.state.Paralysed;
-import graphics.MenuFrame;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -26,8 +26,10 @@ public class CollectBag {
     @Test
     public void collectBag(){
         assertEquals(0, v.getGears().size());
+        assertEquals(3, v.getMaxMaterial());
         v.searchField();
         assertEquals(1, v.getGears().size());
         assertSame(b, v.getGears().get(0));
+        assertEquals(6, v.getMaxMaterial());
     }
 }

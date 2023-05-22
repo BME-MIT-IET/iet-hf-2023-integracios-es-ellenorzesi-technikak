@@ -70,4 +70,7 @@ public class Storage extends Field {
 		return fieldColourVisitor.visit(this);
 	}
 
+	public int getMaterialCount(){
+		return storedMaterials.size();
+	}
 }

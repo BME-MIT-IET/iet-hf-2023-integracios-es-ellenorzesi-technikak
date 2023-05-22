@@ -132,7 +132,7 @@ public class Round_Manager implements Serializable {
 				}
 			} else if (percent < 40) {
 				int gearPercent = rnd.nextInt(100);
-				if (gearPercent < 100) {
+				if (gearPercent < 25) {
 					Shelter s = new Shelter();
 					fields2.add(s);
 					for (int j = 0; j < rnd.nextInt(20) + 1; j++) {

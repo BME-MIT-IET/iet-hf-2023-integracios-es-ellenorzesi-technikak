@@ -28,14 +28,16 @@ public class UseCape {
     }
 
     @Test
-    public void UseCape(){
+    public void UseCape() {
         assertEquals(1, v1.getStates().size());
         assertEquals("Default: 000", v1.getStates().get(0).ToString());
         assertEquals(1, v2.getStates().size());
         assertEquals("Default: 000", v2.getStates().get(0).ToString());
         v1.useCode(c, v2);
+
         assertEquals(1, v1.getStates().size());
         assertEquals("Default: 000", v1.getStates().get(0).ToString());
+        // mive a cape-t csak 83% tudja használni ezért ez a assert nem mindig igaz
         assertEquals(1, v2.getStates().size());
         assertEquals("Default: 000", v2.getStates().get(0).ToString());
     }

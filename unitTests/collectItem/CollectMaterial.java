@@ -29,9 +29,12 @@ public class CollectMaterial {
     public void collectMultipleMaterial(){
         assertEquals(0, v.getMaterials().size());
         //a Storage veletlenszeru mennyisegu anyagot tartalmaz, ezert minden felvetel utan inicializaljuk
+
         for(int i = 0; i < 20; i++){
             v.searchField();
             s = new Storage();
+            v.setField(s);
+
         }
         assertEquals(3, v.getMaterials().size());
     }

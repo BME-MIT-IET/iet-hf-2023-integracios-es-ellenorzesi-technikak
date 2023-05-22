@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50fb1f88-d5ea-40e2-9625-305e611b76b7" name="Changes" comment="" />
+    <list default="true" id="50fb1f88-d5ea-40e2-9625-305e611b76b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jacoco_maven_plugin.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Collect.collectCapeFromShelter" />
+      <item itemvalue="JUnit.CollectMaterial" />
+      <item itemvalue="JUnit.CollectMaterial.collectMultipleMaterial" />
+      <item itemvalue="JUnit.MoveVirologist.moveDancingVirologist" />
+      <item itemvalue="JUnit.unitTests in iet-hf-2023-integracios-es-ellenorzesi-technikak" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.unitTests in iet-hf-2023-integracios-es-ellenorzesi-technikak" />
@@ -146,5 +155,9 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/iet_hf_2023_integracios_es_ellenorzesi_technikak$unitTests_in_iet_hf_2023_integracios_es_ellenorzesi_technikak.ic" NAME="unitTests in iet-hf-2023-integracios-es-ellenorzesi-technikak Coverage Results" MODIFIED="1684779352770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/iet_hf_2023_integracios_es_ellenorzesi_technikak$unitTests_in_iet_hf_2023_integracios_es_ellenorzesi_technikak.exec" NAME="unitTests in iet-hf-2023-integracios-es-ellenorzesi-technikak Coverage Results" MODIFIED="1684780769018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

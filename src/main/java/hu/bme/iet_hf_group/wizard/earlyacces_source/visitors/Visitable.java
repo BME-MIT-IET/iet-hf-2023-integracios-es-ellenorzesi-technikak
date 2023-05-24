@@ -1,6 +1,6 @@
-package earlyacces_source.visitors;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.visitors;
 
-import earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
 
 public interface Visitable {
 

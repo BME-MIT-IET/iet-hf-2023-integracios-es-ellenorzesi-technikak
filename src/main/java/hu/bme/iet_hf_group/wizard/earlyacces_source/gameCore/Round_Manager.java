@@ -1,10 +1,14 @@
-package earlyacces_source.gameCore;//
+package hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore;//
 
-import earlyacces_source.Virologist;
-import earlyacces_source.code.*;
-import earlyacces_source.field.*;
-import earlyacces_source.gear.*;
-import earlyacces_source.state.State;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Axe;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Bag;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Cape;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Glove;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.State;
 
 import java.io.Serializable;
 import java.util.*;

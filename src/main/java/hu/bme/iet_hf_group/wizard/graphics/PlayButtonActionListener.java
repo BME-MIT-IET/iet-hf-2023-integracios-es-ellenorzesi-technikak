@@ -1,8 +1,8 @@
-package graphics;
+package hu.bme.iet_hf_group.wizard.graphics;
 
-import earlyacces_source.Virologist;
-import earlyacces_source.code.Code;
-import earlyacces_source.gameCore.Round_Manager;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.Code;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore.Round_Manager;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

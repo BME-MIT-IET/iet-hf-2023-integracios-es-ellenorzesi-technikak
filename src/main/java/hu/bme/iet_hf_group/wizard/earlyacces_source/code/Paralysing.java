@@ -1,7 +1,7 @@
-package earlyacces_source.code;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.code;
 
-import earlyacces_source.*;
-import earlyacces_source.state.Paralysed;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.Paralysed;
 
 /**
  * Bénító ágens létrehozásához szükséges genetikai kód

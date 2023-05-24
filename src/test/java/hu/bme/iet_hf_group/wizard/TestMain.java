@@ -1,7 +1,8 @@
+package hu.bme.iet_hf_group.wizard;
+
 import hu.bme.iet_hf_group.wizard.earlyacces_source.Material;
 import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
-import earlyacces_source.code.*;
-import earlyacces_source.field.*;
+
 import hu.bme.iet_hf_group.wizard.earlyacces_source.code.*;
 import hu.bme.iet_hf_group.wizard.earlyacces_source.field.*;
 import hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore.Game;

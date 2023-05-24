@@ -1,9 +1,7 @@
-package earlyacces_source.code;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.code;
 
-import earlyacces_source.*;
-import earlyacces_source.state.Dancing;
-
-import java.io.Serializable;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.Dancing;
 
 /**
  * Vitustáncoltató ágens létrehozásához szükséges genetikai kód

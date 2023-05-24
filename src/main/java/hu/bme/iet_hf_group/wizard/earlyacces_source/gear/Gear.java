@@ -1,8 +1,10 @@
-package earlyacces_source.gear;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.gear;
 
-import earlyacces_source.*;
-import earlyacces_source.code.*;
-import earlyacces_source.visitors.CollectibleVisitor;
+
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Collectible;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.Code;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.CollectibleVisitor;
 
 /**
  * A virológusok által felvehető védőfelszerelések absztrakt ősosztálya

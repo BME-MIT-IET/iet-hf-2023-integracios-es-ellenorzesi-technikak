@@ -1,7 +1,7 @@
-package earlyacces_source.state;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.state;
 
-import earlyacces_source.*;
-import earlyacces_source.field.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Field;
 
 import java.util.Random;
 

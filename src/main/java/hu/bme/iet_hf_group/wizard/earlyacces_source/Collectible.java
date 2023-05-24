@@ -1,8 +1,7 @@
-package earlyacces_source;
+package hu.bme.iet_hf_group.wizard.earlyacces_source;
 
-import earlyacces_source.field.*;
-import earlyacces_source.visitors.Visitable;
-import earlyacces_source.visitors.addCollectibleVisitor;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.Visitable;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Field;
 
 import java.io.Serializable;
 

@@ -1,7 +1,8 @@
-package earlyacces_source.gear;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.gear;
 
-import earlyacces_source.*;
-import earlyacces_source.code.*;
+
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.Code;
 
 /**
  * A virológus által felvehető kesztyű osztálya

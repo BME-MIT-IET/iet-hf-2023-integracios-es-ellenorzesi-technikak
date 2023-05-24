@@ -1,8 +1,8 @@
-package earlyacces_source.gear;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.gear;
 
-import earlyacces_source.Virologist;
-import earlyacces_source.code.Code;
-import earlyacces_source.gameCore.Round_Manager;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.Code;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore.Round_Manager;
 
 /**
  * A virológus által felvehető balta osztálya

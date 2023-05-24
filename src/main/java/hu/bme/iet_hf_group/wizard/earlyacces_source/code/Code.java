@@ -1,9 +1,10 @@
-package earlyacces_source.code;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.code;
 
-import earlyacces_source.*;
-import earlyacces_source.visitors.CollectibleVisitor;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Collectible;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Material;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.CollectibleVisitor;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 

@@ -1,11 +1,10 @@
-package earlyacces_source.visitors;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.visitors;
 
-import earlyacces_source.Material;
-import earlyacces_source.Virologist;
-import earlyacces_source.field.FreeField;
-import earlyacces_source.field.Laboratory;
-import earlyacces_source.field.Shelter;
-import earlyacces_source.field.Storage;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.FreeField;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Laboratory;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Shelter;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Storage;
 
 public class bearVisitor implements FieldVisitor {
 

@@ -1,7 +1,7 @@
-package earlyacces_source.gear;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.gear;
 
-import earlyacces_source.*;
-import earlyacces_source.visitors.CollectibleVisitor;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.CollectibleVisitor;
 
 /**
  * A virológus által felvehető zsák osztálya

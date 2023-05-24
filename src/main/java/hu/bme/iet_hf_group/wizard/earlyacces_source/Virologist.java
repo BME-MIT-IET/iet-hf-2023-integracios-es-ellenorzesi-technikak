@@ -1,14 +1,12 @@
-package earlyacces_source;
+package hu.bme.iet_hf_group.wizard.earlyacces_source;
 
-import earlyacces_source.code.Code;
-import earlyacces_source.field.Field;
-import earlyacces_source.gear.Bag;
-import earlyacces_source.gear.Gear;
-import earlyacces_source.state.Default;
-import earlyacces_source.state.State;
-import earlyacces_source.visitors.addCollectibleVisitor;
-import earlyacces_source.visitors.deleteCollectibleVisitor;
-import earlyacces_source.gameCore.Round_Manager;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.Code;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Field;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Gear;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.Default;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.State;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.addCollectibleVisitor;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.deleteCollectibleVisitor;
 
 import java.io.Serializable;
 import java.util.ArrayList;

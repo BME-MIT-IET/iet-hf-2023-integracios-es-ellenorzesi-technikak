@@ -1,9 +1,9 @@
-package earlyacces_source.state;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.state;
 
-import earlyacces_source.Virologist;
-import earlyacces_source.code.BearVirus;
-import earlyacces_source.field.Field;
-import earlyacces_source.visitors.bearVisitor;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.BearVirus;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Field;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.bearVisitor;
 
 import java.util.Random;
 

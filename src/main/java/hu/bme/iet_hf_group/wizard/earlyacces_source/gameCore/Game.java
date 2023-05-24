@@ -1,7 +1,6 @@
-package earlyacces_source.gameCore;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore;
 
-import earlyacces_source.*;
-import earlyacces_source.field.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
 
 import java.io.*;
 import java.util.ArrayList;

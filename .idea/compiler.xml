@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hu.bme.iet_hf_group.wizard" />
         <module name="iet-hf-2023-integracios-es-ellenorzesi-technikak" />
       </profile>
     </annotationProcessing>

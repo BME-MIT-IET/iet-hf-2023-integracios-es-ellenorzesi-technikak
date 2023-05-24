@@ -1,12 +1,10 @@
-package earlyacces_source.field;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.field;
 
-import earlyacces_source.Virologist;
-import earlyacces_source.code.BearVirus;
-import earlyacces_source.code.Code;
-import earlyacces_source.gameCore.Round_Manager;
-import earlyacces_source.gear.Gear;
-import earlyacces_source.visitors.FieldVisitor;
-import graphics.FieldColourVisitor;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.BearVirus;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.Code;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.FieldVisitor;
+import hu.bme.iet_hf_group.wizard.graphics.FieldColourVisitor;
 
 import java.awt.*;
 

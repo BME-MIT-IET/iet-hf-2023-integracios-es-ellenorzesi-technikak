@@ -1,13 +1,10 @@
-package graphics;
+package hu.bme.iet_hf_group.wizard.graphics;
 
-import earlyacces_source.Virologist;
-import earlyacces_source.gameCore.Round_Manager;
-import earlyacces_source.state.State;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.State;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.HashMap;
-import java.util.Random;
 
 /**
  * Menüsáv osztály

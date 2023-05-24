@@ -1,6 +1,6 @@
-package earlyacces_source.code;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.code;
 
-import earlyacces_source.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
 
 import java.util.ArrayList;
 

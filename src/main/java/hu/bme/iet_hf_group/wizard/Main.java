@@ -1,5 +1,7 @@
-import earlyacces_source.*;
-import graphics.*;
+package hu.bme.iet_hf_group.wizard;
+
+
+import hu.bme.iet_hf_group.wizard.graphics.MenuFrame;
 
 /**
  * Main osztály.

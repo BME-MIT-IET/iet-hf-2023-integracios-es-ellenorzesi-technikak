@@ -1,7 +1,7 @@
-package earlyacces_source;
+package hu.bme.iet_hf_group.wizard.earlyacces_source;
 
-import earlyacces_source.visitors.CollectibleVisitor;
-import earlyacces_source.visitors.addCollectibleVisitor;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.CollectibleVisitor;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.addCollectibleVisitor;
 
 /**
  * A virológusok által gyűjthető anyagok osztálya

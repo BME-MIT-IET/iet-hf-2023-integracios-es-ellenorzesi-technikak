@@ -1,4 +1,4 @@
-package earlyacces_source.state;
+package hu.bme.iet_hf_group.wizard.earlyacces_source.state;
 
 /**
  * A virológus állapota, sikeres “Protection” ágens kenés után

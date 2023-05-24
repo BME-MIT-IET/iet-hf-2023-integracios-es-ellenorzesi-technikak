@@ -1,6 +1,6 @@
-package graphics;
+package hu.bme.iet_hf_group.wizard.graphics;
 
-import earlyacces_source.field.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.*;
 
 import java.awt.*;
 

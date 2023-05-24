@@ -1,4 +1,4 @@
-package graphics;
+package hu.bme.iet_hf_group.wizard.graphics;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;

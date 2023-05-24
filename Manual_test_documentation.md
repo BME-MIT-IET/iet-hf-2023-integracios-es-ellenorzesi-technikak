@@ -1,8 +1,8 @@
 # Manuális tesztelés dokumentáció 
 
 ## A tesztelni kívánt funkciók 
-1. Virológus léptetése -
-2. Paralysing ágens használata -
+1. Virológus léptetése
+2. Paralysing ágens használata
 3. Chorea ágens használata
 4. Oblivion ágens használata
 5. Protection ágens használata
@@ -45,8 +45,8 @@ A teszteset célja annak vizsgálata, hogy a virológus a saját körében képe
 - a virológus a Chorea ágens felkenése után megkapja a Dancing állapotot
 - a virológus a Chorea ágens felkenése után automatikusan véletlenszerű mezőkre lép
 ### Dokumentáció 
-- Az ágens felkenése után, a fertőzütt virológussal nem lehet lépni, viszont minden körbe véletlenszerű mozgást végez.
-
+- Az ágens felkenése után, a fertőzütt virológussal nem lehet lépni, viszont 5 körön keresztül véletlenszerű mozgást végez.
+![](manualTests/chorea.PNG)
 ---
 ## 4. Oblivion ágens használata
 ### Teszteset célja
@@ -57,6 +57,8 @@ A teszteset célja annak vizsgálata, hogy a virológus a saját körében képe
 ### Dokumentáció 
 - Az ágens használatához 1 anyag szükséges.
 - A megfertőzött virológus ágensei eltünnek.
+!["fertőzés elött"](manualTests/obvion_1.PNG)
+!["fertőzés után](manualTests/obvion_2.PNG)
 ---
 ## 5. Protection ágens használata
 ### Teszteset célja
@@ -138,6 +140,9 @@ A teszteset célja annak vizsgálata, hogy a virológus a saját körében képe
 - a halott virológus eltűnik a pályáról
 - a balta elhasználódásakor eltűnik a virológus felszereléséből
 ### Dokumentáció 
+- Amennyiben a virológusunknak van baltája akkor az Axe gomb megnyomásával meg tudjuk önli a velünk egy mező tartózkodó virológust, a balta egy használat után elkopik.
+![](manualTests/useAxe_1.PNG)
+![](manualTests/useAxe_2.PNG)
 
 ---
 ## 12: Találkozás a medvével
@@ -148,5 +153,7 @@ A teszteset célja annak vizsgálata, hogy a virológus, amennyiben egy medvéve
 - a virológus a lépés után Bear státuszt kap
 - a virológus a lépés után nem tud többet lépni, véletlenszerűen mozog
 ### Dokumentáció 
-
+- Ha medvevírussal fertőzőtt virolúgusssal egy mezőre lépük, a virológusunk is elkapja a vírust.
+![](manualTests/talalkozas_medvevel_1.PNG)
+![](manualTests/talalkozas_medvevel_2.PNG)
 ---

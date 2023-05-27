@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-alpha-6" type="java-imported" external-system-id="Maven">
+    <properties groupId="org.apache.maven.wagon" artifactId="wagon-provider-api" version="1.0-alpha-6" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.maven.shared:maven-shared-io:1.1" type="java-imported" external-system-id="Maven">
+    <properties groupId="org.apache.maven.shared" artifactId="maven-shared-io" version="1.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

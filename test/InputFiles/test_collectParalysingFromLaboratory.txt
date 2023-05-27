@@ -1,8 +1,0 @@
-create lab l
-create virologist v
-set virologist v field l
-set field l virologist v
-add field l paralysing
-virologist v collect
-print field l
-print virologist v

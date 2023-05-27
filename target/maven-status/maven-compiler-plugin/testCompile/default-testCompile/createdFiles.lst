@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 hu/bme/iet_hf_group/wizard/useCode/UseChoreaOnVirologistTest.class
 hu/bme/iet_hf_group/wizard/rob/RobDefaultVirologist.class
 hu/bme/iet_hf_group/wizard/collectCode/CollectProtectionTest.class
@@ -15,6 +14,7 @@ hu/bme/iet_hf_group/wizard/collectCode/CollectParalysingTest.class
 hu/bme/iet_hf_group/wizard/collectItem/CollectGloveTest.class
 hu/bme/iet_hf_group/wizard/collectItem/CollectMaterialTest.class
 hu/bme/iet_hf_group/wizard/useItem/UseGloveTest.class
+hu/bme/iet_hf_group/wizard/TestMain.class
 hu/bme/iet_hf_group/wizard/collectCode/CollectOblivionTest.class
 hu/bme/iet_hf_group/wizard/rob/RobParalysedVirologist.class
 hu/bme/iet_hf_group/wizard/move/MoveBearTest.class
@@ -22,6 +22,3 @@ hu/bme/iet_hf_group/wizard/collectCode/CollectChoreaTest.class
 hu/bme/iet_hf_group/wizard/useCode/UseParalysingOnVirologistTest.class
 hu/bme/iet_hf_group/wizard/useCode/UseProtectionOnVirologistTest.class
 hu/bme/iet_hf_group/wizard/useCode/GetInfectedByBearVirusTest.class
-=======
-hu/bme/iet_hf_group/wizard/TestMain.class
->>>>>>> main

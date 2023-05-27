@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/useCode/GetInfectedByBearVirusTest.java
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/useCode/UseParalysingOnVirologistTest.java
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/collectCode/CollectProtectionTest.java
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/useItem/UseAxeTest.java
+/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/TestMain.java
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/useItem/UseGloveTest.java
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/useCode/UseChoreaOnVirologistTest.java
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/collectItem/CollectMaterialTest.java
@@ -22,6 +22,3 @@
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/move/MoveParalyzedVirologistTest.java
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/move/MoveBearTest.java
 /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/collectItem/CollectBagTest.java
-=======
-/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/TestMain.java
->>>>>>> main

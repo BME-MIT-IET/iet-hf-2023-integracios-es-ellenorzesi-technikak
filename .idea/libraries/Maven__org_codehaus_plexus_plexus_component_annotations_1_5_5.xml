@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.5" type="java-imported" external-system-id="Maven">
+    <properties groupId="org.codehaus.plexus" artifactId="plexus-component-annotations" version="1.5.5" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

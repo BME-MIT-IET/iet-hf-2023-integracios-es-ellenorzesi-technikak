@@ -1,0 +1,11 @@
+create freefield f
+create storage s
+create virologist v
+set field f field s
+set field s field f
+set virologist v field f
+set field f virologist v
+add virologist v bear
+virologist v move s
+print field s
+print virologist v

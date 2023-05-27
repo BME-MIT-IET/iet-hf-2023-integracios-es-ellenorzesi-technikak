@@ -1,0 +1,48 @@
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist accepted
+Virologist accepted
+State constructed
+Bear state
+Collectible constructed
+Code constructed
+BearVirus constructed
+Field constructed
+Laboratory constructed
+Code learnt
+Collectible constructed
+Code constructed
+Chorea constructed
+Field constructed
+Laboratory constructed
+Code learnt
+Collectible constructed
+Code constructed
+BearVirus constructed
+Use code
+Not enough Material
+
+Virologist(v1):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+		BearVirus@7eda2dbb
+		Chorea@76fb509a
+	states:
+		Bear@1f17ae12
+		Default@4d405ef7
+
+Virologist(v2):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Default@6193b845

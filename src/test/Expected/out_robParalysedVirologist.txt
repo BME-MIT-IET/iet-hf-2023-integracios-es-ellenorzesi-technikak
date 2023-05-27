@@ -1,0 +1,39 @@
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist accepted
+Virologist accepted
+Syntax error
+Collectible constructed
+Material constructed
+Field constructed
+Storage constructed
+Collectible constructed
+Material constructed
+Collectible constructed
+Material constructed
+Stored materials size: 2
+Material added to inventory, available space (2)
+Virologist cannot be robbed
+Cannot rob virologist
+
+Virologist(v1):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Default@69d0a921
+
+Virologist(v2):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Default@446cdf90

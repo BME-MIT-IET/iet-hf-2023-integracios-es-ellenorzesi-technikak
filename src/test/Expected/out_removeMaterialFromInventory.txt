@@ -1,0 +1,31 @@
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist accepted
+Collectible constructed
+Material constructed
+Field constructed
+Storage constructed
+Collectible constructed
+Material constructed
+Collectible constructed
+Material constructed
+Collectible constructed
+Material constructed
+Stored materials size: 3
+Material added to inventory, available space (2)
+Remove collectible
+Material preparing for removal
+Collectible constructed
+Material constructed
+Material removed from inventory, available space (3)
+
+Virologist(v):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Default@41906a77

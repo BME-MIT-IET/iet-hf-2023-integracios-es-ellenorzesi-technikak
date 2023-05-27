@@ -32,12 +32,15 @@
             <version>0.8.7</version>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+=======
+>>>>>>> main
     </dependencies>
 
     <build>
@@ -47,7 +50,11 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.10.1</version>
                 <configuration>
+<<<<<<< HEAD
                     <release>17</release>
+=======
+                    <release>11</release>
+>>>>>>> main
                 </configuration>
             </plugin>
 

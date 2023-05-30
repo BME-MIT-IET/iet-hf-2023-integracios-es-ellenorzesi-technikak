@@ -1,0 +1,47 @@
+Field constructed
+FreeField constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist constructed
+State constructed
+Default constructed
+Virologist accepted
+Virologist accepted
+Collectible constructed
+Code constructed
+Chorea constructed
+Field constructed
+Laboratory constructed
+Code learnt
+Collectible constructed
+Material constructed
+Field constructed
+Storage constructed
+Collectible constructed
+Material constructed
+Collectible constructed
+Material constructed
+Collectible constructed
+Material constructed
+Collectible constructed
+Material constructed
+Stored materials size: 4
+Material added to inventory, available space (2)
+
+Virologist(v1):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+		Chorea@5910e440
+	states:
+		Default@6267c3bb
+
+Virologist(v2):
+	field: f
+	maxMaterial: 3
+	gears:
+	codes:
+	states:
+		Default@533ddba

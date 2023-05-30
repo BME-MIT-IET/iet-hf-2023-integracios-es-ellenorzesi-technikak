@@ -1,0 +1,7 @@
+create freefield f
+create virologist v
+set virologist v field f
+set field f virologist v
+add virologist v material
+virologist v remove material
+print virologist v

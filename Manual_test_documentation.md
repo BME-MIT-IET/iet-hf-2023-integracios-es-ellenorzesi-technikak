@@ -68,9 +68,7 @@ A teszteset célja annak vizsgálata, hogy a virológus a saját körében képe
 - a virológus a Protection ágens felkenése után megkapja az Immune állapotot
 - a virológus a Protection ágens felkenése után kivédi az összes vírust három körön keresztül
 ### Dokumentáció 
-- A procettion ágenst céleszerű saját virológusra kenni
-- Protection ágens hatása alatt más virológusok nem tudnak ágenst kenni ránk
-- Az ágens használatához 2 anyag szükséges
+- A teszt nem sikerült, a protection ágens kenése után nem jelenik meg az immune állapot virológus állapotai között, illetve le lehet bénítani tehát hatása sincs az ágensnek.
 ---
 ## 6. Keresés laboratórium mezőn
 ### Teszteset célja
@@ -120,18 +118,9 @@ A teszteset célja annak vizsgálata, hogy a virológus a saját körében képe
 - Ha nincs anyag, akkor nem tudunk felvenni
 ![elötte](manualTests/storage_1.PNG)
 ![utána](manualTests/storage_2.PNG)
----
-## 10. Rablás egy bénult virológustól
-### Teszteset célja
-A teszteset célja annak vizsgálata, hogy a virológus a saját körében képes-e kirabolni egy bénult virológust, és a nála lévő tárgyat megszerezni.
-### Elvárt viselkedés
-- a virológus csak a saját körében tud másik virológust kirabolni
-- a virológus csak bénult virológust tud kirabolni
-- a virológus felszerelésében a rablás után megjelenik a bénult virológus anyaga 
-### Dokumentáció 
 
 ---
-## 11. Balta használata egy másik virológuson
+## 10. Balta használata egy másik virológuson
 ### Teszteset célja
 A teszteset célja annak vizsgálata, hogy a virológus a saját körében képes-e megölni egy másik virológust a nála lévő baltával.
 ### Elvárt viselkedés
@@ -145,7 +134,7 @@ A teszteset célja annak vizsgálata, hogy a virológus a saját körében képe
 ![](manualTests/useAxe_2.PNG)
 
 ---
-## 12: Találkozás a medvével
+## 11: Találkozás a medvével
 ### Teszteset célja
 A teszteset célja annak vizsgálata, hogy a virológus, amennyiben egy medvével rendelkező mezőre lép, megfertőződik-e maga is a medvevírussal.
 ### Elvárt viselkedés

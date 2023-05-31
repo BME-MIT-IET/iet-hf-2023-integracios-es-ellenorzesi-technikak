@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="11.137" tests="9" errors="1" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.509" tests="9" errors="9" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/test-classes:/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/classes:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/scsng/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/scsng/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/scsng/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/scsng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/scsng/.m2/repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar:/home/scsng/.m2/repository/net/bytebuddy/byte-buddy/1.12.8/byte-buddy-1.12.8.jar:/home/scsng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.8/byte-buddy-agent-1.12.8.jar:/home/scsng/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/scsng/.m2/repository/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.jar:/home/scsng/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/scsng/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/scsng/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/scsng/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar:/home/scsng/.m2/repository/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar:/home/scsng/.m2/repository/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar:/home/scsng/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar:/home/scsng/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar:/home/scsng/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/scsng/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.jar:/home/scsng/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.jar:/home/scsng/.m2/repository/org/assertj/assertj-swing-junit/3.17.1/assertj-swing-junit-3.17.1.jar:/home/scsng/.m2/repository/org/assertj/assertj-swing/3.17.1/assertj-swing-3.17.1.jar:/home/scsng/.m2/repository/org/assertj/assertj-core/3.17.2/assertj-core-3.17.2.jar:/home/scsng/.m2/repository/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar:/home/scsng/.m2/repository/org/easytesting/fest-reflect/1.4.1/fest-reflect-1.4.1.jar:/home/scsng/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/home/scsng/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/scsng/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.class.path" value="/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/test-classes:/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/classes:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/scsng/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/scsng/.m2/repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar:/home/scsng/.m2/repository/net/bytebuddy/byte-buddy/1.12.8/byte-buddy-1.12.8.jar:/home/scsng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.8/byte-buddy-agent-1.12.8.jar:/home/scsng/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/scsng/.m2/repository/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.jar:/home/scsng/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/scsng/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/scsng/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/scsng/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar:/home/scsng/.m2/repository/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar:/home/scsng/.m2/repository/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar:/home/scsng/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar:/home/scsng/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar:/home/scsng/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/scsng/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.jar:/home/scsng/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.jar:/home/scsng/.m2/repository/org/assertj/assertj-swing-junit/3.9.2/assertj-swing-junit-3.9.2.jar:/home/scsng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/scsng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/scsng/.m2/repository/org/assertj/assertj-swing/3.9.2/assertj-swing-3.9.2.jar:/home/scsng/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/home/scsng/.m2/repository/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar:/home/scsng/.m2/repository/org/easytesting/fest-reflect/1.4.1/fest-reflect-1.4.1.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/scsng/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/scsng/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/scsng/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="Unknown"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/surefire/surefirebooter12352811797611689359.jar /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/surefire 2023-05-31T22-36-07_684-jvmRun1 surefire1072282413143062638tmp surefire_0520982160973640604tmp"/>
+    <property name="sun.java.command" value="/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/surefire/surefirebooter4558478284825205408.jar /home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/surefire 2023-05-31T22-58-56_196-jvmRun1 surefire9636275597693332216tmp surefire_015614202728977044365tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/test-classes:/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/classes:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/scsng/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/scsng/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/scsng/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/scsng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/scsng/.m2/repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar:/home/scsng/.m2/repository/net/bytebuddy/byte-buddy/1.12.8/byte-buddy-1.12.8.jar:/home/scsng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.8/byte-buddy-agent-1.12.8.jar:/home/scsng/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/scsng/.m2/repository/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.jar:/home/scsng/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/scsng/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/scsng/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/scsng/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar:/home/scsng/.m2/repository/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar:/home/scsng/.m2/repository/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar:/home/scsng/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar:/home/scsng/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar:/home/scsng/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/scsng/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.jar:/home/scsng/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.jar:/home/scsng/.m2/repository/org/assertj/assertj-swing-junit/3.17.1/assertj-swing-junit-3.17.1.jar:/home/scsng/.m2/repository/org/assertj/assertj-swing/3.17.1/assertj-swing-3.17.1.jar:/home/scsng/.m2/repository/org/assertj/assertj-core/3.17.2/assertj-core-3.17.2.jar:/home/scsng/.m2/repository/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar:/home/scsng/.m2/repository/org/easytesting/fest-reflect/1.4.1/fest-reflect-1.4.1.jar:/home/scsng/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/home/scsng/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/scsng/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="surefire.test.class.path" value="/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/test-classes:/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/classes:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/scsng/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/scsng/.m2/repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar:/home/scsng/.m2/repository/net/bytebuddy/byte-buddy/1.12.8/byte-buddy-1.12.8.jar:/home/scsng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.8/byte-buddy-agent-1.12.8.jar:/home/scsng/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/scsng/.m2/repository/org/jacoco/jacoco-maven-plugin/0.8.7/jacoco-maven-plugin-0.8.7.jar:/home/scsng/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/scsng/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/scsng/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/scsng/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/scsng/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/scsng/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar:/home/scsng/.m2/repository/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar:/home/scsng/.m2/repository/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar:/home/scsng/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.jar:/home/scsng/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar:/home/scsng/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9/plexus-container-default-1.0-alpha-9.jar:/home/scsng/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/scsng/.m2/repository/org/apache/maven/reporting/maven-reporting-api/3.0/maven-reporting-api-3.0.jar:/home/scsng/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.core/0.8.7/org.jacoco.core-0.8.7.jar:/home/scsng/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar:/home/scsng/.m2/repository/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar:/home/scsng/.m2/repository/org/jacoco/org.jacoco.report/0.8.7/org.jacoco.report-0.8.7.jar:/home/scsng/.m2/repository/org/assertj/assertj-swing-junit/3.9.2/assertj-swing-junit-3.9.2.jar:/home/scsng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/scsng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/scsng/.m2/repository/org/assertj/assertj-swing/3.9.2/assertj-swing-3.9.2.jar:/home/scsng/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/home/scsng/.m2/repository/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar:/home/scsng/.m2/repository/org/easytesting/fest-reflect/1.4.1/fest-reflect-1.4.1.jar:/home/scsng/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/scsng/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/scsng/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/scsng/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/scsng"/>
     <property name="user.language" value="en"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/surefire/surefirebooter12352811797611689359.jar"/>
+    <property name="surefire.real.class.path" value="/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/target/surefire/surefirebooter4558478284825205408.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+7-Ubuntu-0ubuntu123.04"/>
     <property name="user.name" value="scsng"/>
@@ -51,158 +51,49 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testLabelNumberOfPlayers" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.632"/>
-  <testcase name="testButtonClickNewGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="5.808">
-    <error message="Timed out waiting for component to be found using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423&#10;Unable to find component using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423.&#10;&#10;Component hierarchy:&#10;hu.bme.iet_hf_group.wizard.graphics.MenuFrame[name=&apos;frame0&apos;, title=&apos;Blind Virologists&apos;, enabled=true, visible=true, showing=true]&#10;  javax.swing.JRootPane[]&#10;    javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#10;    javax.swing.JLayeredPane[]&#10;      javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#10;        javax.swing.JLabel[name=null, text=&apos;Blind Virologists&apos;, enabled=true, visible=true, showing=true]&#10;        javax.swing.JPanel[name=null]&#10;          javax.swing.JButton[name=&apos;New Game&apos;, text=&apos;New Game&apos;, enabled=true, visible=true, showing=true]&#10;          javax.swing.JButton[name=&apos;Load Game&apos;, text=&apos;Load Game&apos;, enabled=true, visible=true, showing=true]&#10;        javax.swing.JPanel[name=null]&#10;          javax.swing.JLabel[name=null, text=&apos;Number of players: &apos;, enabled=true, visible=true, showing=true]&#10;          javax.swing.JTextField[name=null, text=&apos;2&apos;, enabled=true, visible=true, showing=true]&#10;javax.swing.SwingUtilities$SharedOwnerFrame[name=&apos;frame1&apos;, title=&apos;&apos;, enabled=true, visible=false, showing=false]&#10;" type="org.assertj.swing.exception.WaitTimedOutError">org.assertj.swing.exception.WaitTimedOutError: 
-Timed out waiting for component to be found using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423
-Unable to find component using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423.
-
-Component hierarchy:
-hu.bme.iet_hf_group.wizard.graphics.MenuFrame[name='frame0', title='Blind Virologists', enabled=true, visible=true, showing=true]
-  javax.swing.JRootPane[]
-    javax.swing.JPanel[name='null.glassPane']
-    javax.swing.JLayeredPane[]
-      javax.swing.JPanel[name='null.contentPane']
-        javax.swing.JLabel[name=null, text='Blind Virologists', enabled=true, visible=true, showing=true]
-        javax.swing.JPanel[name=null]
-          javax.swing.JButton[name='New Game', text='New Game', enabled=true, visible=true, showing=true]
-          javax.swing.JButton[name='Load Game', text='Load Game', enabled=true, visible=true, showing=true]
-        javax.swing.JPanel[name=null]
-          javax.swing.JLabel[name=null, text='Number of players: ', enabled=true, visible=true, showing=true]
-          javax.swing.JTextField[name=null, text='2', enabled=true, visible=true, showing=true]
-javax.swing.SwingUtilities$SharedOwnerFrame[name='frame1', title='', enabled=true, visible=false, showing=false]
-
-	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testButtonClickNewGame(MenuFrameTest.java:87)
+  <testcase name="testLabelNumberOfPlayers" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.166">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
 </error>
-    <system-err><![CDATA[Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:209)
-	at hu.bme.iet_hf_group.wizard.graphics.MapPanel.<init>(MapPanel.java:22)
-	at hu.bme.iet_hf_group.wizard.graphics.GameFrame.<init>(GameFrame.java:57)
-	at hu.bme.iet_hf_group.wizard.graphics.StartButtonActionListener.actionPerformed(StartButtonActionListener.java:27)
-	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
-	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
-	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
-	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
-	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
-	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
-	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
-	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
-	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
-	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
-	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
-	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
-	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
-	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
-	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
-	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
-	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
-]]></system-err>
   </testcase>
-  <testcase name="testTextFieldPlayerCountMaxLengthLimited" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="2.253"/>
-  <testcase name="testButtonNewGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.179"/>
-  <testcase name="testButtonLoadGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.185"/>
-  <testcase name="testTextFieldPlayerCount" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.584">
-    <failure message="[javax.swing.JTextField[name=null, text=&apos;2&apos;, enabled=true, visible=true, showing=true] - property:&apos;text&apos;] &#10;Expecting:&#10; &quot;2&quot;&#10;to match pattern:&#10; &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
-[javax.swing.JTextField[name=null, text='2', enabled=true, visible=true, showing=true] - property:'text'] 
-Expecting:
- "2"
-to match pattern:
- ""
-	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testTextFieldPlayerCount(MenuFrameTest.java:75)
-</failure>
+  <testcase name="testButtonClickNewGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.039">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+</error>
   </testcase>
-  <testcase name="testTextFieldPlayerCountOnlyNumericalValueAllowed" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="1.077">
-    <failure message="[javax.swing.JTextField[name=null, text=&apos;&apos;, enabled=true, visible=true, showing=true] - property:&apos;text&apos;] &#10;Expecting:&#10; &quot;&quot;&#10;to match pattern:&#10; &quot;2&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
-[javax.swing.JTextField[name=null, text='', enabled=true, visible=true, showing=true] - property:'text'] 
-Expecting:
- ""
-to match pattern:
- "2"
-	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testTextFieldPlayerCountOnlyNumericalValueAllowed(MenuFrameTest.java:95)
-</failure>
-    <system-err><![CDATA[May 31, 2023 10:36:18 PM org.assertj.swing.monitor.ProtectingTimerTask handleException
-WARNING: Exception thrown by a TimerTask
-java.lang.reflect.InaccessibleObjectException: Unable to make field int java.util.TimerTask.state accessible: module java.base does not "opens java.util" to unnamed module @6a7c0ffd
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:70)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:60)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.setAccessible(Accessibles.java:57)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.makeAccessible(Accessibles.java:46)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.verifyCorrectType(Invoker.java:98)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.createInvoker(Invoker.java:74)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.newInvoker(Invoker.java:68)
-	at org.assertj.swing.dependency.fest_reflect.field.FieldType.in(FieldType.java:74)
-	at org.assertj.swing.monitor.ProtectingTimerTask.isCanceled(ProtectingTimerTask.java:54)
-	at org.assertj.swing.monitor.ProtectingTimerTask.run(ProtectingTimerTask.java:41)
-	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
-	at java.base/java.util.TimerThread.run(Timer.java:516)
-
-May 31, 2023 10:36:18 PM org.assertj.swing.monitor.ProtectingTimerTask handleException
-WARNING: Exception thrown by a TimerTask
-java.lang.reflect.InaccessibleObjectException: Unable to make field int java.util.TimerTask.state accessible: module java.base does not "opens java.util" to unnamed module @6a7c0ffd
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:70)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:60)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.setAccessible(Accessibles.java:57)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.makeAccessible(Accessibles.java:46)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.verifyCorrectType(Invoker.java:98)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.createInvoker(Invoker.java:74)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.newInvoker(Invoker.java:68)
-	at org.assertj.swing.dependency.fest_reflect.field.FieldType.in(FieldType.java:74)
-	at org.assertj.swing.monitor.ProtectingTimerTask.isCanceled(ProtectingTimerTask.java:54)
-	at org.assertj.swing.monitor.ProtectingTimerTask.run(ProtectingTimerTask.java:41)
-	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
-	at java.base/java.util.TimerThread.run(Timer.java:516)
-
-May 31, 2023 10:36:19 PM org.assertj.swing.monitor.ProtectingTimerTask handleException
-WARNING: Exception thrown by a TimerTask
-java.lang.reflect.InaccessibleObjectException: Unable to make field int java.util.TimerTask.state accessible: module java.base does not "opens java.util" to unnamed module @6a7c0ffd
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
-	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
-	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
-	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:70)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:60)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.setAccessible(Accessibles.java:57)
-	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.makeAccessible(Accessibles.java:46)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.verifyCorrectType(Invoker.java:98)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.createInvoker(Invoker.java:74)
-	at org.assertj.swing.dependency.fest_reflect.field.Invoker.newInvoker(Invoker.java:68)
-	at org.assertj.swing.dependency.fest_reflect.field.FieldType.in(FieldType.java:74)
-	at org.assertj.swing.monitor.ProtectingTimerTask.isCanceled(ProtectingTimerTask.java:54)
-	at org.assertj.swing.monitor.ProtectingTimerTask.run(ProtectingTimerTask.java:41)
-	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
-	at java.base/java.util.TimerThread.run(Timer.java:516)
-
-]]></system-err>
+  <testcase name="testTextFieldPlayerCountMaxLengthLimited" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.009">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+</error>
   </testcase>
-  <testcase name="testWindowTitle" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.182"/>
-  <testcase name="testLabelTitle" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.186"/>
+  <testcase name="testButtonNewGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.089">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+</error>
+  </testcase>
+  <testcase name="testButtonLoadGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.012">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+</error>
+  </testcase>
+  <testcase name="testTextFieldPlayerCount" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.069">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+</error>
+  </testcase>
+  <testcase name="testTextFieldPlayerCountOnlyNumericalValueAllowed" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.017">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+</error>
+  </testcase>
+  <testcase name="testWindowTitle" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.024">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+</error>
+  </testcase>
+  <testcase name="testLabelTitle" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.079">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+</error>
+  </testcase>
 </testsuite>

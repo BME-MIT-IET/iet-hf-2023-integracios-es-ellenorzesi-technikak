@@ -7,8 +7,9 @@
     <list default="true" id="50fb1f88-d5ea-40e2-9625-305e611b76b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/bme/iet_hf_group/wizard/graphics/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/bme/iet_hf_group/wizard/graphics/GameFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-05-31T22-36-07_684.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectBearVirusTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectBearVirusTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectChoreaTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectChoreaTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectOblivionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectOblivionTest.xml" afterDir="false" />
@@ -24,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.move.MoveNormalVirologistTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.move.MoveNormalVirologistTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.move.MoveParalyzedVirologistTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.move.MoveParalyzedVirologistTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.GetInfectedByBearVirusTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.GetInfectedByBearVirusTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseChoreaOnVirologistTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseChoreaOnVirologistTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseOblivionOnVirologistTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseOblivionOnVirologistTest.xml" afterDir="false" />
@@ -31,28 +33,23 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseProtectionOnVirologistTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseProtectionOnVirologistTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useItem.UseAxeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useItem.UseAxeTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useItem.UseGloveTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useItem.UseGloveTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectBearVirusTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectBearVirusTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectChoreaTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectChoreaTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectParalysingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectParalysingTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectProtectionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectProtectionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectAxeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectAxeTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectMaterialTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectMaterialTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.move.MoveBearTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.move.MoveBearTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.GetInfectedByBearVirusTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.GetInfectedByBearVirusTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseChoreaOnVirologistTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseChoreaOnVirologistTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseOblivionOnVirologistTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseOblivionOnVirologistTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseParalysingOnVirologistTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseParalysingOnVirologistTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useItem.UseAxeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useItem.UseAxeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -66,6 +63,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="7c34f34125d4d0b9ae86ae7a6b14f4033b0030d3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -86,20 +88,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/scsng/IdeaProjects/iet-hf-2023-integracios-es-ellenorzesi-technikak/src/test/java/hu/bme/iet_hf_group/wizard/uiTests",
+    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/iet-hf-2023-integracios-es-ellenorzesi-technikak",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.GameFrameTest.testComboBoxVirologists">
+  <component name="RunManager" selected="JUnit.uiTests in hu.bme.iet_hf_group.wizard">
     <configuration name="GameFrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hu.bme.iet_hf_group.wizard" />
       <extension name="coverage">
@@ -111,22 +108,6 @@
       <option name="PACKAGE_NAME" value="hu.bme.iet_hf_group.wizard.uiTests" />
       <option name="MAIN_CLASS_NAME" value="hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameFrameTest.testButtonSearchField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hu.bme.iet_hf_group.wizard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.bme.iet_hf_group.wizard.uiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hu.bme.iet_hf_group.wizard.uiTests" />
-      <option name="MAIN_CLASS_NAME" value="hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest" />
-      <option name="METHOD_NAME" value="testButtonSearchField" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,20 +159,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="uiTests in hu.bme.iet_hf_group.wizard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hu.bme.iet_hf_group.wizard" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.GameFrameTest" />
-      <item itemvalue="JUnit.GameFrameTest.testButtonSearchField" />
       <item itemvalue="JUnit.GameFrameTest.testComboBoxVirologists" />
       <item itemvalue="JUnit.GameFrameTest.testLearnCode" />
       <item itemvalue="JUnit.MenuFrameTest" />
+      <item itemvalue="JUnit.uiTests in hu.bme.iet_hf_group.wizard" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GameFrameTest.testComboBoxVirologists" />
-        <item itemvalue="JUnit.GameFrameTest.testButtonSearchField" />
+        <item itemvalue="JUnit.uiTests in hu.bme.iet_hf_group.wizard" />
         <item itemvalue="JUnit.GameFrameTest" />
-        <item itemvalue="JUnit.GameFrameTest.testLearnCode" />
         <item itemvalue="JUnit.MenuFrameTest" />
+        <item itemvalue="JUnit.GameFrameTest.testLearnCode" />
+        <item itemvalue="JUnit.GameFrameTest.testComboBoxVirologists" />
       </list>
     </recent_temporary>
   </component>
@@ -206,9 +195,6 @@
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -220,41 +206,43 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.java</url>
-          <line>23</line>
+          <line>13</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>108</line>
+          <line>109</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>139</line>
+          <line>140</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>172</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>174</line>
+          <line>175</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>173</line>
+          <line>174</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

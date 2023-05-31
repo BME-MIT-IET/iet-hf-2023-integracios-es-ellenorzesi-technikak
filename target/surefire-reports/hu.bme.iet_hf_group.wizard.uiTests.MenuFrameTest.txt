@@ -1,44 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 11.137 s <<< FAILURE! - in hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest
-testButtonClickNewGame  Time elapsed: 5.808 s  <<< ERROR!
-org.assertj.swing.exception.WaitTimedOutError: 
-Timed out waiting for component to be found using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423
-Unable to find component using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423.
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.509 s <<< FAILURE! - in hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest
+testLabelNumberOfPlayers  Time elapsed: 0.166 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
 
-Component hierarchy:
-hu.bme.iet_hf_group.wizard.graphics.MenuFrame[name='frame0', title='Blind Virologists', enabled=true, visible=true, showing=true]
-  javax.swing.JRootPane[]
-    javax.swing.JPanel[name='null.glassPane']
-    javax.swing.JLayeredPane[]
-      javax.swing.JPanel[name='null.contentPane']
-        javax.swing.JLabel[name=null, text='Blind Virologists', enabled=true, visible=true, showing=true]
-        javax.swing.JPanel[name=null]
-          javax.swing.JButton[name='New Game', text='New Game', enabled=true, visible=true, showing=true]
-          javax.swing.JButton[name='Load Game', text='Load Game', enabled=true, visible=true, showing=true]
-        javax.swing.JPanel[name=null]
-          javax.swing.JLabel[name=null, text='Number of players: ', enabled=true, visible=true, showing=true]
-          javax.swing.JTextField[name=null, text='2', enabled=true, visible=true, showing=true]
-javax.swing.SwingUtilities$SharedOwnerFrame[name='frame1', title='', enabled=true, visible=false, showing=false]
+testButtonClickNewGame  Time elapsed: 0.039 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
 
-	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testButtonClickNewGame(MenuFrameTest.java:87)
+testTextFieldPlayerCountMaxLengthLimited  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
 
-testTextFieldPlayerCount  Time elapsed: 0.584 s  <<< FAILURE!
-java.lang.AssertionError: 
-[javax.swing.JTextField[name=null, text='2', enabled=true, visible=true, showing=true] - property:'text'] 
-Expecting:
- "2"
-to match pattern:
- ""
-	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testTextFieldPlayerCount(MenuFrameTest.java:75)
+testButtonNewGame  Time elapsed: 0.089 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
 
-testTextFieldPlayerCountOnlyNumericalValueAllowed  Time elapsed: 1.077 s  <<< FAILURE!
-java.lang.AssertionError: 
-[javax.swing.JTextField[name=null, text='', enabled=true, visible=true, showing=true] - property:'text'] 
-Expecting:
- ""
-to match pattern:
- "2"
-	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testTextFieldPlayerCountOnlyNumericalValueAllowed(MenuFrameTest.java:95)
+testButtonLoadGame  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+
+testTextFieldPlayerCount  Time elapsed: 0.069 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+
+testTextFieldPlayerCountOnlyNumericalValueAllowed  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+
+testWindowTitle  Time elapsed: 0.024 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
+
+testLabelTitle  Time elapsed: 0.079 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.onSetUp(MenuFrameTest.java:25)
 

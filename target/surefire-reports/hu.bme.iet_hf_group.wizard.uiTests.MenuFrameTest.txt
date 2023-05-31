@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 11.137 s <<< FAILURE! - in hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest
+testButtonClickNewGame  Time elapsed: 5.808 s  <<< ERROR!
+org.assertj.swing.exception.WaitTimedOutError: 
+Timed out waiting for component to be found using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423
+Unable to find component using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423.
+
+Component hierarchy:
+hu.bme.iet_hf_group.wizard.graphics.MenuFrame[name='frame0', title='Blind Virologists', enabled=true, visible=true, showing=true]
+  javax.swing.JRootPane[]
+    javax.swing.JPanel[name='null.glassPane']
+    javax.swing.JLayeredPane[]
+      javax.swing.JPanel[name='null.contentPane']
+        javax.swing.JLabel[name=null, text='Blind Virologists', enabled=true, visible=true, showing=true]
+        javax.swing.JPanel[name=null]
+          javax.swing.JButton[name='New Game', text='New Game', enabled=true, visible=true, showing=true]
+          javax.swing.JButton[name='Load Game', text='Load Game', enabled=true, visible=true, showing=true]
+        javax.swing.JPanel[name=null]
+          javax.swing.JLabel[name=null, text='Number of players: ', enabled=true, visible=true, showing=true]
+          javax.swing.JTextField[name=null, text='2', enabled=true, visible=true, showing=true]
+javax.swing.SwingUtilities$SharedOwnerFrame[name='frame1', title='', enabled=true, visible=false, showing=false]
+
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testButtonClickNewGame(MenuFrameTest.java:87)
+
+testTextFieldPlayerCount  Time elapsed: 0.584 s  <<< FAILURE!
+java.lang.AssertionError: 
+[javax.swing.JTextField[name=null, text='2', enabled=true, visible=true, showing=true] - property:'text'] 
+Expecting:
+ "2"
+to match pattern:
+ ""
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testTextFieldPlayerCount(MenuFrameTest.java:75)
+
+testTextFieldPlayerCountOnlyNumericalValueAllowed  Time elapsed: 1.077 s  <<< FAILURE!
+java.lang.AssertionError: 
+[javax.swing.JTextField[name=null, text='', enabled=true, visible=true, showing=true] - property:'text'] 
+Expecting:
+ ""
+to match pattern:
+ "2"
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testTextFieldPlayerCountOnlyNumericalValueAllowed(MenuFrameTest.java:95)
+

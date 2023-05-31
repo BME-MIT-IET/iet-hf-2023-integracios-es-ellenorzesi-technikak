@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hu.bme.iet_hf_group.wizard.move.MoveBearTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="11.137" tests="9" errors="1" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -51,5 +51,158 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="moveBear" classname="hu.bme.iet_hf_group.wizard.move.MoveBearTest" time="0"/>
+  <testcase name="testLabelNumberOfPlayers" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.632"/>
+  <testcase name="testButtonClickNewGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="5.808">
+    <error message="Timed out waiting for component to be found using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423&#10;Unable to find component using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423.&#10;&#10;Component hierarchy:&#10;hu.bme.iet_hf_group.wizard.graphics.MenuFrame[name=&apos;frame0&apos;, title=&apos;Blind Virologists&apos;, enabled=true, visible=true, showing=true]&#10;  javax.swing.JRootPane[]&#10;    javax.swing.JPanel[name=&apos;null.glassPane&apos;]&#10;    javax.swing.JLayeredPane[]&#10;      javax.swing.JPanel[name=&apos;null.contentPane&apos;]&#10;        javax.swing.JLabel[name=null, text=&apos;Blind Virologists&apos;, enabled=true, visible=true, showing=true]&#10;        javax.swing.JPanel[name=null]&#10;          javax.swing.JButton[name=&apos;New Game&apos;, text=&apos;New Game&apos;, enabled=true, visible=true, showing=true]&#10;          javax.swing.JButton[name=&apos;Load Game&apos;, text=&apos;Load Game&apos;, enabled=true, visible=true, showing=true]&#10;        javax.swing.JPanel[name=null]&#10;          javax.swing.JLabel[name=null, text=&apos;Number of players: &apos;, enabled=true, visible=true, showing=true]&#10;          javax.swing.JTextField[name=null, text=&apos;2&apos;, enabled=true, visible=true, showing=true]&#10;javax.swing.SwingUtilities$SharedOwnerFrame[name=&apos;frame1&apos;, title=&apos;&apos;, enabled=true, visible=false, showing=false]&#10;" type="org.assertj.swing.exception.WaitTimedOutError">org.assertj.swing.exception.WaitTimedOutError: 
+Timed out waiting for component to be found using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423
+Unable to find component using matcher hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest$1@28b46423.
+
+Component hierarchy:
+hu.bme.iet_hf_group.wizard.graphics.MenuFrame[name='frame0', title='Blind Virologists', enabled=true, visible=true, showing=true]
+  javax.swing.JRootPane[]
+    javax.swing.JPanel[name='null.glassPane']
+    javax.swing.JLayeredPane[]
+      javax.swing.JPanel[name='null.contentPane']
+        javax.swing.JLabel[name=null, text='Blind Virologists', enabled=true, visible=true, showing=true]
+        javax.swing.JPanel[name=null]
+          javax.swing.JButton[name='New Game', text='New Game', enabled=true, visible=true, showing=true]
+          javax.swing.JButton[name='Load Game', text='Load Game', enabled=true, visible=true, showing=true]
+        javax.swing.JPanel[name=null]
+          javax.swing.JLabel[name=null, text='Number of players: ', enabled=true, visible=true, showing=true]
+          javax.swing.JTextField[name=null, text='2', enabled=true, visible=true, showing=true]
+javax.swing.SwingUtilities$SharedOwnerFrame[name='frame1', title='', enabled=true, visible=false, showing=false]
+
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testButtonClickNewGame(MenuFrameTest.java:87)
+</error>
+    <system-err><![CDATA[Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:209)
+	at hu.bme.iet_hf_group.wizard.graphics.MapPanel.<init>(MapPanel.java:22)
+	at hu.bme.iet_hf_group.wizard.graphics.GameFrame.<init>(GameFrame.java:57)
+	at hu.bme.iet_hf_group.wizard.graphics.StartButtonActionListener.actionPerformed(StartButtonActionListener.java:27)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+]]></system-err>
+  </testcase>
+  <testcase name="testTextFieldPlayerCountMaxLengthLimited" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="2.253"/>
+  <testcase name="testButtonNewGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.179"/>
+  <testcase name="testButtonLoadGame" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.185"/>
+  <testcase name="testTextFieldPlayerCount" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.584">
+    <failure message="[javax.swing.JTextField[name=null, text=&apos;2&apos;, enabled=true, visible=true, showing=true] - property:&apos;text&apos;] &#10;Expecting:&#10; &quot;2&quot;&#10;to match pattern:&#10; &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+[javax.swing.JTextField[name=null, text='2', enabled=true, visible=true, showing=true] - property:'text'] 
+Expecting:
+ "2"
+to match pattern:
+ ""
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testTextFieldPlayerCount(MenuFrameTest.java:75)
+</failure>
+  </testcase>
+  <testcase name="testTextFieldPlayerCountOnlyNumericalValueAllowed" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="1.077">
+    <failure message="[javax.swing.JTextField[name=null, text=&apos;&apos;, enabled=true, visible=true, showing=true] - property:&apos;text&apos;] &#10;Expecting:&#10; &quot;&quot;&#10;to match pattern:&#10; &quot;2&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+[javax.swing.JTextField[name=null, text='', enabled=true, visible=true, showing=true] - property:'text'] 
+Expecting:
+ ""
+to match pattern:
+ "2"
+	at hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest.testTextFieldPlayerCountOnlyNumericalValueAllowed(MenuFrameTest.java:95)
+</failure>
+    <system-err><![CDATA[May 31, 2023 10:36:18 PM org.assertj.swing.monitor.ProtectingTimerTask handleException
+WARNING: Exception thrown by a TimerTask
+java.lang.reflect.InaccessibleObjectException: Unable to make field int java.util.TimerTask.state accessible: module java.base does not "opens java.util" to unnamed module @6a7c0ffd
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:70)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:60)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.setAccessible(Accessibles.java:57)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.makeAccessible(Accessibles.java:46)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.verifyCorrectType(Invoker.java:98)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.createInvoker(Invoker.java:74)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.newInvoker(Invoker.java:68)
+	at org.assertj.swing.dependency.fest_reflect.field.FieldType.in(FieldType.java:74)
+	at org.assertj.swing.monitor.ProtectingTimerTask.isCanceled(ProtectingTimerTask.java:54)
+	at org.assertj.swing.monitor.ProtectingTimerTask.run(ProtectingTimerTask.java:41)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+May 31, 2023 10:36:18 PM org.assertj.swing.monitor.ProtectingTimerTask handleException
+WARNING: Exception thrown by a TimerTask
+java.lang.reflect.InaccessibleObjectException: Unable to make field int java.util.TimerTask.state accessible: module java.base does not "opens java.util" to unnamed module @6a7c0ffd
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:70)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:60)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.setAccessible(Accessibles.java:57)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.makeAccessible(Accessibles.java:46)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.verifyCorrectType(Invoker.java:98)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.createInvoker(Invoker.java:74)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.newInvoker(Invoker.java:68)
+	at org.assertj.swing.dependency.fest_reflect.field.FieldType.in(FieldType.java:74)
+	at org.assertj.swing.monitor.ProtectingTimerTask.isCanceled(ProtectingTimerTask.java:54)
+	at org.assertj.swing.monitor.ProtectingTimerTask.run(ProtectingTimerTask.java:41)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+May 31, 2023 10:36:19 PM org.assertj.swing.monitor.ProtectingTimerTask handleException
+WARNING: Exception thrown by a TimerTask
+java.lang.reflect.InaccessibleObjectException: Unable to make field int java.util.TimerTask.state accessible: module java.base does not "opens java.util" to unnamed module @6a7c0ffd
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:70)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles$SetAccessibleAction.run(Accessibles.java:60)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.setAccessible(Accessibles.java:57)
+	at org.assertj.swing.dependency.fest_reflect.util.Accessibles.makeAccessible(Accessibles.java:46)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.verifyCorrectType(Invoker.java:98)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.createInvoker(Invoker.java:74)
+	at org.assertj.swing.dependency.fest_reflect.field.Invoker.newInvoker(Invoker.java:68)
+	at org.assertj.swing.dependency.fest_reflect.field.FieldType.in(FieldType.java:74)
+	at org.assertj.swing.monitor.ProtectingTimerTask.isCanceled(ProtectingTimerTask.java:54)
+	at org.assertj.swing.monitor.ProtectingTimerTask.run(ProtectingTimerTask.java:41)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+
+]]></system-err>
+  </testcase>
+  <testcase name="testWindowTitle" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.182"/>
+  <testcase name="testLabelTitle" classname="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" time="0.186"/>
 </testsuite>

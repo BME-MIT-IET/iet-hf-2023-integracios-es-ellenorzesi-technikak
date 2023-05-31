@@ -45,6 +45,12 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.easytesting</groupId>
+            <artifactId>fest-util</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <!-- Thanks for using https://jar-download.com -->
 
     </dependencies>
 

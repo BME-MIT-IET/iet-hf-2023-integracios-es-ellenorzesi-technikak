@@ -1,15 +1,10 @@
 package hu.bme.iet_hf_group.wizard.uiTests;
 
-import graphics.GameFrame;
-import org.assertj.swing.core.GenericTypeMatcher;
 import org.assertj.swing.core.matcher.FrameMatcher;
 import org.assertj.swing.core.matcher.JButtonMatcher;
 import org.assertj.swing.core.matcher.JLabelMatcher;
 import org.assertj.swing.core.matcher.JTextComponentMatcher;
 import org.assertj.swing.fixture.*;
-
-import javax.swing.*;
-import java.awt.*;
 
 import static org.assertj.swing.finder.WindowFinder.findFrame;
 

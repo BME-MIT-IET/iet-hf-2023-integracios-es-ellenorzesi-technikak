@@ -1,21 +1,25 @@
 package hu.bme.iet_hf_group.wizard.uiTests;
 
 
+import hu.bme.iet_hf_group.wizard.graphics.GameFrame;
+import hu.bme.iet_hf_group.wizard.graphics.MenuFrame;
 import org.assertj.swing.core.GenericTypeMatcher;
 import org.assertj.swing.edt.GuiActionRunner;
-import org.assertj.swing.fixture.*;
+import org.assertj.swing.fixture.FrameFixture;
 import org.assertj.swing.junit.testcase.AssertJSwingJUnitTestCase;
-import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+
 import java.awt.*;
 import java.awt.event.KeyEvent;
+
 import static org.assertj.swing.finder.WindowFinder.findFrame;
 
 public class MenuFrameTest extends AssertJSwingJUnitTestCase {
     private FrameFixture window;
     private UITestUtils utils;
 
-    @Before
+    @BeforeEach
     @Override
     public void onSetUp() {
         var frame = GuiActionRunner.execute(MenuFrame::new);

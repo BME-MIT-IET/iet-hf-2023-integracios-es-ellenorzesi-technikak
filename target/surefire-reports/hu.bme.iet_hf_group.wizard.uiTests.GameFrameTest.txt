@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.186 s <<< FAILURE! - in hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest
+testLearnCode  Time elapsed: 0.152 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.startFresh(GameFrameTest.java:173)
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.testLearnCode(GameFrameTest.java:109)
+
+testComboBoxVirologists  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.startFresh(GameFrameTest.java:173)
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.testComboBoxVirologists(GameFrameTest.java:39)
+
+testComboBoxCodes  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.startFresh(GameFrameTest.java:173)
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.testComboBoxCodes(GameFrameTest.java:56)
+
+testLearnParalysingAndParalyseAndRob  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.startFresh(GameFrameTest.java:173)
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.testLearnParalysingAndParalyseAndRob(GameFrameTest.java:72)
+
+testAxePickupAndKill  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.startFresh(GameFrameTest.java:173)
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.startFreshWithShelter(GameFrameTest.java:134)
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.testAxePickupAndKill(GameFrameTest.java:118)
+
+testButtonSearchField  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.startFresh(GameFrameTest.java:173)
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.startFreshWithShelter(GameFrameTest.java:134)
+	at hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest.testButtonSearchField(GameFrameTest.java:31)
+

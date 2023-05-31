@@ -2,8 +2,21 @@ package hu.bme.iet_hf_group.wizard.uiTests;
 
 
 
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Material;
 import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore.Game;
 import hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore.Round_Manager;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Axe;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Bag;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Cape;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Glove;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.Bear;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.Dancing;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.Immune;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.state.Paralysed;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.visitors.deleteCollectibleVisitor;
 import hu.bme.iet_hf_group.wizard.graphics.MenuFrame;
 
 import java.io.FileInputStream;

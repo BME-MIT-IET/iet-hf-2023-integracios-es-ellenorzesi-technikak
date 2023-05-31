@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fb1f88-d5ea-40e2-9625-305e611b76b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/UITestUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" beforeDir="false" />
@@ -24,11 +20,86 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/UITestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/UITestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hu.bme.iet_hf_group.wizard-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectBearVirusTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectChoreaTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectOblivionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectParalysingTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectCode.CollectProtectionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectItem.CollectAxeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectItem.CollectBagTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectItem.CollectCapeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectItem.CollectGloveTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.collectItem.CollectMaterialTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.move.MoveBearTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.move.MoveDancingVirologistTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.move.MoveNormalVirologistTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.move.MoveParalyzedVirologistTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.GetInfectedByBearVirusTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseChoreaOnVirologistTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseOblivionOnVirologistTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseParalysingOnVirologistTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useCode.UseProtectionOnVirologistTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useItem.UseAxeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hu.bme.iet_hf_group.wizard.useItem.UseGloveTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectBearVirusTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectChoreaTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectOblivionTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectParalysingTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectCode.CollectProtectionTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectAxeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectBagTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectCapeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectGloveTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.collectItem.CollectMaterialTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.move.MoveBearTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.move.MoveDancingVirologistTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.move.MoveNormalVirologistTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.move.MoveParalyzedVirologistTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.GetInfectedByBearVirusTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseChoreaOnVirologistTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseOblivionOnVirologistTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseParalysingOnVirologistTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useCode.UseProtectionOnVirologistTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useItem.UseAxeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hu.bme.iet_hf_group.wizard.useItem.UseGloveTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/TestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectCode/CollectBearVirusTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectCode/CollectChoreaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectCode/CollectOblivionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectCode/CollectParalysingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectCode/CollectProtectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectItem/CollectAxeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectItem/CollectBagTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectItem/CollectCapeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectItem/CollectGloveTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/collectItem/CollectMaterialTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/move/MoveBearTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/move/MoveDancingVirologistTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/move/MoveNormalVirologistTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/move/MoveParalyzedVirologistTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/rob/RobDefaultVirologist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/rob/RobParalysedVirologist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/useCode/GetInfectedByBearVirusTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/useCode/UseChoreaOnVirologistTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/useCode/UseOblivionOnVirologistTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/useCode/UseParalysingOnVirologistTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/useCode/UseProtectionOnVirologistTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/useItem/UseAxeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/hu/bme/iet_hf_group/wizard/useItem/UseGloveTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -67,7 +138,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">

@@ -1,12 +1,16 @@
 package hu.bme.iet_hf_group.wizard.uiTests;
 
-import earlyacces_source.Material;
-import earlyacces_source.Virologist;
-import earlyacces_source.code.*;
-import earlyacces_source.field.*;
-import earlyacces_source.gameCore.Round_Manager;
-import earlyacces_source.gear.*;
-import graphics.GameFrame;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Material;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.code.*;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.FreeField;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Laboratory;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Shelter;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.field.Storage;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore.Round_Manager;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Axe;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Bag;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gear.Gear;
 import org.assertj.swing.core.GenericTypeMatcher;
 import org.assertj.swing.edt.GuiActionRunner;
 import org.assertj.swing.fixture.FrameFixture;

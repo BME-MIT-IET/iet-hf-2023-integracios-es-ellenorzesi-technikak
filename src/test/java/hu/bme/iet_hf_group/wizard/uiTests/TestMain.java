@@ -1,21 +1,10 @@
 package hu.bme.iet_hf_group.wizard.uiTests;
 
-import earlyacces_source.Material;
-import earlyacces_source.Virologist;
-import earlyacces_source.code.*;
-import earlyacces_source.field.*;
-import earlyacces_source.gameCore.Game;
-import earlyacces_source.gameCore.Round_Manager;
-import earlyacces_source.gear.Axe;
-import earlyacces_source.gear.Bag;
-import earlyacces_source.gear.Cape;
-import earlyacces_source.gear.Glove;
-import earlyacces_source.state.Bear;
-import earlyacces_source.state.Dancing;
-import earlyacces_source.state.Immune;
-import earlyacces_source.state.Paralysed;
-import earlyacces_source.visitors.deleteCollectibleVisitor;
-import graphics.MenuFrame;
+
+
+import hu.bme.iet_hf_group.wizard.earlyacces_source.Virologist;
+import hu.bme.iet_hf_group.wizard.earlyacces_source.gameCore.Round_Manager;
+import hu.bme.iet_hf_group.wizard.graphics.MenuFrame;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

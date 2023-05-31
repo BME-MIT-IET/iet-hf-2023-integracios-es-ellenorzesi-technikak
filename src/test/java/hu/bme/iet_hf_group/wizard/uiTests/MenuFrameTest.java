@@ -1,7 +1,6 @@
 package hu.bme.iet_hf_group.wizard.uiTests;
 
-import graphics.GameFrame;
-import graphics.MenuFrame;
+
 import org.assertj.swing.core.GenericTypeMatcher;
 import org.assertj.swing.edt.GuiActionRunner;
 import org.assertj.swing.fixture.*;

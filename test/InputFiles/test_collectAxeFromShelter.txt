@@ -1,8 +1,0 @@
-create shelter s
-create virologist v
-set virologist v field s
-set field s virologist v
-add shelter s axe
-virologist v collect
-print field s
-print virologist v

@@ -42,6 +42,7 @@ public class MenuFrame extends JFrame {
             buttons[i] = new JButton();
             buttons[i].setPreferredSize(new Dimension(150, 50));
             buttons[i].setText(titles[i]);
+            buttons[i].setName(titles[i]);
             buttons[i].setActionCommand(titles[i]);
             buttons[i].addActionListener(new StartButtonActionListener());
             panel.add(buttons[i]);

@@ -77,11 +77,12 @@ public class GameFrame extends JFrame {
 		splitPane.setDividerLocation(200);
 		splitPane.setEnabled(false);
 
-
+		virologists.setName("virologistsComboBox");
 		virologists.setEditable(false);
 		virologists.setPreferredSize(new Dimension(180, 30));
 		virologists.setToolTipText("Az aktualis mezon allo virologusok");
 
+		codes.setName("codesComboBox");
 		codes.setEditable(false);
 		codes.setPreferredSize(new Dimension(180, 30));
 		codes.setToolTipText("A soron levo virologus altal megtanult kodok");
@@ -123,7 +124,7 @@ public class GameFrame extends JFrame {
 	 */
 	public void gameOver() {
 		JOptionPane.showMessageDialog(this, round_manager.getVirologistsName(round_manager.getCurrentVirologist()) +
-									  " won!\nBack to menu.", "GAME OVER", JOptionPane.INFORMATION_MESSAGE);
+				" won!\nBack to menu.", "GAME OVER", JOptionPane.INFORMATION_MESSAGE);
 		dispose();
 		new MenuFrame();
 	}

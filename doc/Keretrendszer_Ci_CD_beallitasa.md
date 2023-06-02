@@ -1,0 +1,7 @@
+### Keretrendszer beállítása és CI/CD rendszer integrálása
+
+A Java projekt  keretrendszerbe való integrálását végeztem a házi feladat során. Némi utáolvasás után végül a Mavent választottam. A keretrendszer áttanulmányozása után először létrehoztam egy új mvn projektet, amelybe beültettem az eredeti forráskódot az ebben használt mappaszerkezet szerint. Ezt követően a .pom (Maven projekt) fájl mdosítottam, hogy kompaibiis legyen a projektünkkel. Mivel párhuzamosan végezték a csoportok a munkát, az UI és egységteszteket  még a régi struktúrába készítették, amelyeket át kellett emelnem ezeket az új keretbe is, és Maven  függőségeit is frissítenem kellett. Ez jelentős debugolást jelentett, mivel nem mindegyik teszt volt kompatibilis a Maven tesztelő rendszerével.
+
+A keretrendszer beállítása után foglalkoztam a CI/CD beállításával is. A Github Actions választottam, ez volt a legkézenfekvőbb megoldás. A Github csapata létrehozott korábban már egy saját sablont Maven projektek futtatására és tesztelésére, így ezt használtam kisebb átalakításokkal. Ez a action minden main-re mutató pull request után lefut, és ellenőrzi, hogy buildelhető-e a projekt, és siekresen megfelel-e a teszteknek.
+
+Csányi Sámuel

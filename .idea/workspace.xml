@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fb1f88-d5ea-40e2-9625-305e611b76b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +25,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="7c34f34125d4d0b9ae86ae7a6b14f4033b0030d3" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -45,103 +41,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/admin/Documents/GitHub/iet-hf-2023-integracios-es-ellenorzesi-technikak",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/Documents/GitHub/iet-hf-2023-integracios-es-ellenorzesi-technikak&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.uiTests in hu.bme.iet_hf_group.wizard">
-    <configuration name="GameFrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hu.bme.iet_hf_group.wizard" />
+}</component>
+  <component name="RunManager" selected="JUnit.unitTests in iet-hf-2023-integracios-es-ellenorzesi-technikak">
+    <configuration name="CollectMaterial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iet-hf-2023-integracios-es-ellenorzesi-technikak" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.bme.iet_hf_group.wizard.uiTests.*" />
+          <option name="PATTERN" value="collectItem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hu.bme.iet_hf_group.wizard.uiTests" />
-      <option name="MAIN_CLASS_NAME" value="hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest" />
+      <option name="PACKAGE_NAME" value="collectItem" />
+      <option name="MAIN_CLASS_NAME" value="collectItem.CollectMaterial" />
       <option name="TEST_OBJECT" value="class" />
+      <dir value="$PROJECT_DIR$/unitTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameFrameTest.testComboBoxVirologists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hu.bme.iet_hf_group.wizard" />
+    <configuration name="CollectMaterial.collectMultipleMaterial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iet-hf-2023-integracios-es-ellenorzesi-technikak" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.bme.iet_hf_group.wizard.uiTests.*" />
+          <option name="PATTERN" value="collectItem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hu.bme.iet_hf_group.wizard.uiTests" />
-      <option name="MAIN_CLASS_NAME" value="hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest" />
-      <option name="METHOD_NAME" value="testComboBoxVirologists" />
+      <option name="PACKAGE_NAME" value="collectItem" />
+      <option name="MAIN_CLASS_NAME" value="collectItem.CollectMaterial" />
+      <option name="METHOD_NAME" value="collectMultipleMaterial" />
+      <option name="TEST_OBJECT" value="method" />
+      <dir value="$PROJECT_DIR$/unitTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Collect.collectCapeFromShelter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iet-hf-2023-integracios-es-ellenorzesi-technikak" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Collect" />
+      <option name="METHOD_NAME" value="collectCapeFromShelter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameFrameTest.testLearnCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hu.bme.iet_hf_group.wizard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.bme.iet_hf_group.wizard.uiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hu.bme.iet_hf_group.wizard.uiTests" />
-      <option name="MAIN_CLASS_NAME" value="hu.bme.iet_hf_group.wizard.uiTests.GameFrameTest" />
-      <option name="METHOD_NAME" value="testLearnCode" />
+    <configuration name="MoveVirologist.moveDancingVirologist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iet-hf-2023-integracios-es-ellenorzesi-technikak" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoveVirologist" />
+      <option name="METHOD_NAME" value="moveDancingVirologist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuFrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hu.bme.iet_hf_group.wizard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.bme.iet_hf_group.wizard.uiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hu.bme.iet_hf_group.wizard.uiTests" />
-      <option name="MAIN_CLASS_NAME" value="hu.bme.iet_hf_group.wizard.uiTests.MenuFrameTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="uiTests in hu.bme.iet_hf_group.wizard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hu.bme.iet_hf_group.wizard" />
+    <configuration name="unitTests in iet-hf-2023-integracios-es-ellenorzesi-technikak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iet-hf-2023-integracios-es-ellenorzesi-technikak" />
       <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests" />
+      <dir value="$PROJECT_DIR$/unitTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.GameFrameTest" />
-      <item itemvalue="JUnit.GameFrameTest.testComboBoxVirologists" />
-      <item itemvalue="JUnit.GameFrameTest.testLearnCode" />
-      <item itemvalue="JUnit.MenuFrameTest" />
-      <item itemvalue="JUnit.uiTests in hu.bme.iet_hf_group.wizard" />
+      <item itemvalue="JUnit.Collect.collectCapeFromShelter" />
+      <item itemvalue="JUnit.CollectMaterial" />
+      <item itemvalue="JUnit.CollectMaterial.collectMultipleMaterial" />
+      <item itemvalue="JUnit.MoveVirologist.moveDancingVirologist" />
+      <item itemvalue="JUnit.unitTests in iet-hf-2023-integracios-es-ellenorzesi-technikak" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.uiTests in hu.bme.iet_hf_group.wizard" />
-        <item itemvalue="JUnit.GameFrameTest" />
-        <item itemvalue="JUnit.MenuFrameTest" />
-        <item itemvalue="JUnit.GameFrameTest.testLearnCode" />
-        <item itemvalue="JUnit.GameFrameTest.testComboBoxVirologists" />
+        <item itemvalue="JUnit.unitTests in iet-hf-2023-integracios-es-ellenorzesi-technikak" />
+        <item itemvalue="JUnit.CollectMaterial" />
+        <item itemvalue="JUnit.CollectMaterial.collectMultipleMaterial" />
+        <item itemvalue="JUnit.Collect.collectCapeFromShelter" />
+        <item itemvalue="JUnit.MoveVirologist.moveDancingVirologist" />
       </list>
     </recent_temporary>
   </component>
@@ -153,8 +144,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684175615998</updated>
+      <workItem from="1685720044211" duration="814000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -166,47 +161,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/MenuFrameTest.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>140</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>175</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>174</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>132</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/hu/bme/iet_hf_group/wizard/uiTests/GameFrameTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
